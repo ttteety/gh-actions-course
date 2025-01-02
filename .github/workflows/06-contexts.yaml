@@ -1,0 +1,11 @@
+name: 06 - Contexts
+
+on: push 
+
+jobs:
+    echo-data:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Display information
+              run: |
+                echo "Event Name: ${{ }}"
